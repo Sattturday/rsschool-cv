@@ -1,11 +1,10 @@
 # ALLA MAGINA
 
-![My photo](./images/Alla%20Magina.jpg)
-<img src="./images/Alla%20Magina.jpg" alt="My photo" width="200"/>
+<img src="./images/Alla%20Magina.jpg" alt="My photo" width="300"/>
 <br>
 _WEB DEVELOPER_ <br>
 
-[Email](mailto:babara@flylady.su) / [GitHub](https://github.com/Sattturday/) / [Telegram](https://t.me/Sattturday/) / [Phone](tel:+79196612276)
+[Email](mailto:babara@flylady.su) / [GitHub](https://github.com/Sattturday/) / [Telegram](https://t.me/Sattturday/) / [Phone:+79196612276]
 <br><br>
 I am a beginner web developer, so I am constantly learning and exploring the world of web development. With a passion for technology and a desire to create innovative and engaging websites, I am eager to improve my skills and make a name for myself in this exciting field.
 <br>
