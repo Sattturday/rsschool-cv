@@ -18,9 +18,9 @@ Although I am new to web development, I have already gained a solid foundation i
     - JavaScript
     - methodology BEM
 
-Graphics software: Figma, Adobe Photoshop
-Version Control: GIT, Github
-Development-tools: VS code
+Graphics software: Figma, Adobe Photoshop<br>
+Version Control: GIT, Github<br>
+Development-tools: VS code<br>
 
 ## 🗞 Сode example
 
