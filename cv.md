@@ -2,7 +2,7 @@
 
 <img src="./images/Alla Magina.jpg" alt="My photo" width="300"/>
 <br>
-##WEB DEVELOPER
+## WEB DEVELOPER
 
 [Email](mailto:babara@flylady.su) / [GitHub](https://github.com/Sattturday/) / [Telegram](https://t.me/Sattturday/)<br>
 **Phone**: +7 (919) 661-22-76
