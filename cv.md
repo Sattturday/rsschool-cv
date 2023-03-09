@@ -1,6 +1,6 @@
 # ALLA MAGINA
 
-![My Photo](./images/Alla%20Magina.jpg|250)
+![My photo| 250](./images/Alla%20Magina.jpg)
 <br>
 _WEB DEVELOPER_ <br>
 
