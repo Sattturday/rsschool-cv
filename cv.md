@@ -4,7 +4,8 @@
 <br>
 _WEB DEVELOPER_ <br>
 
-[Email](mailto:babara@flylady.su) / [GitHub](https://github.com/Sattturday/) / [Telegram](https://t.me/Sattturday/) / [Phone:+79196612276]
+[Email](mailto:babara@flylady.su) / [GitHub](https://github.com/Sattturday/) / [Telegram](https://t.me/Sattturday/)<br>
+**Phone**: +7 (919) 661-22-76
 <br><br>
 I am a beginner web developer, so I am constantly learning and exploring the world of web development. With a passion for technology and a desire to create innovative and engaging websites, I am eager to improve my skills and make a name for myself in this exciting field.
 <br>
@@ -18,9 +19,9 @@ Although I am new to web development, I have already gained a solid foundation i
     - JavaScript
     - methodology BEM
 
-Graphics software: Figma, Adobe Photoshop<br>
-Version Control: GIT, Github<br>
-Development-tools: VS code<br>
+**Graphics software:** Figma, Adobe Photoshop<br>
+**Version Control:** GIT, Github<br>
+**Development-tools:** VS code<br>
 
 ## 🗞 Сode example
 
@@ -54,4 +55,4 @@ Now I am taking the Yandex Practicum Web Developer course and the RS School Java
 
 ## 📌 My level of English now
 
-A1 BEGINNER and A2 ELEMENTARY, according to the guidelines set by the Common European Grading Framework (CEFR).
+**A2 ELEMENTARY**, according to the guidelines set by the Common European Grading Framework (CEFR).
