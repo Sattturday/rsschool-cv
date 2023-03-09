@@ -1,6 +1,6 @@
 # ALLA MAGINA
 
-![My Photo|250](./images/Alla%20Magina.jpg)
+![My Photo](./images/Alla%20Magina.jpg|250)
 <br>
 _WEB DEVELOPER_ <br>
 
@@ -24,12 +24,14 @@ Development-tools: VS code
 
 ## 🗞 Сode example
 
+```
 function spinWords(string){
 return string
 .split(' ')
 .map(item => item.length >= 5 ? item.split('').reverse().join('') : item)
 .join(' ');
 }
+```
 
 ## 👩🏼‍💻 My projects:
 
@@ -40,6 +42,7 @@ return string
   - methodology BEM
     <br>
 - [Mesto](https://github.com/Sattturday/mesto) It's a Mesto service: an interactive page where you can add photos, delete them, and like them.
+  - advanced semantics of the HTML5
   - flexbox
   - grid layout
   - methodology BEM
@@ -49,6 +52,10 @@ return string
 
 Now I am taking the Yandex Practicum Web Developer course and the RS School JavaScript/Front-end 2023Q1 course now.
 
-## 🗞 My level of English now
+## 📌 My level of English now
 
 A1 BEGINNER and A2 ELEMENTARY, according to the guidelines set by the Common European Grading Framework (CEFR).
+
+```
+
+```
