@@ -1,6 +1,7 @@
 # ALLA MAGINA
 
-![My photo| 250](./images/Alla%20Magina.jpg)
+![My photo](./images/Alla%20Magina.jpg)
+<img src="./images/Alla%20Magina.jpg" alt="My photo" width="200"/>
 <br>
 _WEB DEVELOPER_ <br>
 
@@ -55,7 +56,3 @@ Now I am taking the Yandex Practicum Web Developer course and the RS School Java
 ## 📌 My level of English now
 
 A1 BEGINNER and A2 ELEMENTARY, according to the guidelines set by the Common European Grading Framework (CEFR).
-
-```
-
-```
