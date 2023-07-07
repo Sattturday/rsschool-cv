@@ -19,6 +19,11 @@ Although I am new to web development, I have already gained a solid foundation i
     - CSS3
     - JavaScript
     - methodology BEM
+    - REST API
+    - React
+    - Node.js
+    - Express
+    - MongoDB
 
 **Graphics software:** Figma, Adobe Photoshop<br>
 **Version Control:** GIT, Github<br>
@@ -52,7 +57,7 @@ return string
 
 ## 👩🏼‍🎓 Education
 
-Now I am taking the Yandex Practicum Web Developer course and the RS School JavaScript/Front-end 2023Q1 course now.
+Now I am taking the Yandex Practicum Web Developer course and the RS School JavaScript/Front-end course now.
 
 ## 📌 My level of English now
 
