@@ -19,6 +19,11 @@ Although I am new to web development, I have already gained a solid foundation i
     - CSS3
     - JavaScript
     - methodology BEM
+    - REST API
+    - React
+    - Node.js
+    - Express
+    - MongoDB
 
 **Graphics software:** Figma, Adobe Photoshop<br>
 **Version Control:** GIT, Github<br>
@@ -37,22 +42,34 @@ return string
 
 ## 👩🏼‍💻 My projects:
 
+- [Shelter](https://github.com/Sattturday/shelter) This is a site consisting of two pages, adaptive and interactive (burger menu, endless carousel slider, pagination, popups for cards).
+  - advanced semantics of the HTML5
+  - SCSS
+  - flexbox
+  - grid layout
+  - methodology BEM
+  - JavaScript
+
+- [Mesto](https://github.com/Sattturday/react-mesto-auth) It's a Mesto service: an interactive page where you can add photos, delete them, and like them, with authorization and registration
+  - advanced semantics of the HTML5
+  - flexbox
+  - grid layout
+  - methodology BEM
+  - React
+  - React Router
+  - protected routes
+  - authorization via JWT
+  - working with LocalStorage
+
 - [Russian travel](https://github.com/Sattturday/russian-travel) This is a typical one-page responsive website.
   - advanced semantics of the HTML5
   - flexbox
   - grid layout
   - methodology BEM
     <br>
-- [Mesto](https://github.com/Sattturday/mesto) It's a Mesto service: an interactive page where you can add photos, delete them, and like them.
-  - advanced semantics of the HTML5
-  - flexbox
-  - grid layout
-  - methodology BEM
-  - JavaScript
-
 ## 👩🏼‍🎓 Education
 
-Now I am taking the Yandex Practicum Web Developer course and the RS School JavaScript/Front-end 2023Q1 course now.
+Now I am taking the Yandex Practicum Web Developer course and the RS School JavaScript/Front-end course now.
 
 ## 📌 My level of English now
 

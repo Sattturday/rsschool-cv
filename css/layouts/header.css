@@ -1,0 +1,30 @@
+.nav {
+  padding-right: 50px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav__link {
+  padding: 0 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.nav__item {
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: left center;
+  transition: all 0.3s ease;
+}
+.nav__item:hover {
+  background-image: url("../../images/bg_circle.svg");
+  transform: scale(1.05);
+}
