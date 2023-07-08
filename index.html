@@ -12,37 +12,155 @@
 
 <body>
   <header class="header">
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__item"><a href="#summary" class="nav__link">Summary</a></li>
-        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-        <li class="nav__item"><a href="#code" class="nav__link">Code</a></li>
-        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
-        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
-        <li class="nav__item"><a href="#english" class="nav__link">English</a></li>
-        <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
-      </ul>
-    </nav>
+    <div class="wrapper">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#code" class="nav__link">Code</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link">Portfolio</a></li>
+          <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+          <li class="nav__item"><a href="#languages" class="nav__link">Languages</a></li>
+          <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main class="main">
     <section class="profile">
-      <h1 class="profile__title">Hello, my name is Alla Magina and</h1>
-      <p class="profile__description">I am a web developer</p>
-      <a href="#projects" class="profile__link">Projects</a>
-      <a href="#summary" class="profile__link">Summary</a>
+      <div class="wrapper">
+        <h1 class="profile__title">Hello, my name is Alla Magina and</h1>
+        <p class="profile__description">I am a web developer</p>
+        <a href="#projects" class="profile__link">Portfolio</a>
+        <a href="#about" class="profile__link">About me</a>
+      </div>
     </section>
 
-    <section class="summary" id="summary"></section>
-    <section class="skills" id="skills"></section>
-    <section class="code" id="code"></section>
-    <section class="projects" id="projects"></section>
-    <section class="education" id="education"></section>
-    <section class="english" id="english"></section>
-    <section class="contacts" id="contacts"></section>
+    <section class="about" id="about">
+      <div class="wrapper">
+        <img class="about__image" src="" alt="">
+        <h2 class="section-title">About me</h2>
+        <p class="section-subtitle">My name is Alla</p>
+        <p class="paragraph">For the last couple of years, I have been into interior design and 3D visualization, but it
+          seemed to me that I was not fully realizing my potential and I wanted something more. After some thought, I
+          decided that front-end development perfectly matches my interests and skills. I love creating beautiful and
+          functional web pages, as well as solving complex problems related to code. I like that this process is
+          constantly changing and developing, and there is always an opportunity to learn new things.</p>
+        <p class="paragraph">I read a lot of books, blogs, and also take courses on online platforms such as
+          Yandex.Practice, RS School and Hekslet. I also try to attend relevant events in order to communicate with
+          colleagues and find new ideas.</p>
+        <p class="paragraph">My favorite hobby is cycling. I love spending time in nature, riding my bike through
+          picturesque places. I am also into photography. I love to capture moments of life and save them in beautiful
+          and
+          original frames.</p>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="wrapper">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-subtitle">What do I use at work?</p>
+        <ul class="skills__list">
+          <li class="skills__item">HTML5</li>
+          <li class="skills__item">CSS3</li>
+          <li class="skills__item">SASS</li>
+          <li class="skills__item">JavaScript</li>
+          <li class="skills__item">methodology BEM</li>
+          <li class="skills__item">REST API</li>
+          <li class="skills__item">React</li>
+          <li class="skills__item">Node.js</li>
+          <li class="skills__item">Express</li>
+          <li class="skills__item">MongoDB</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="code" id="code">
+      <div class="wrapper">
+        <h2 class="section-title">My code</h2>
+        <p class="section-subtitle">Сode example</p>
+        <pre class="paragraph">
+          function spinWords(string) {
+            return string
+              .split(" ")
+              .map((item) =>
+                item.length >= 5 ? item.split("").reverse().join("") : item
+              )
+              .join(" ");
+          }
+          </pre>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="wrapper">
+        <h2 class="section-title">Portfolio</h2>
+        <p class="section-subtitle">My projects</p>
+        <ul class="projects__list">
+          <li class="projects__item">
+            <h3 class="projects__title">Shelter</h3>
+            <p class="projects__description">This is a site consisting of two pages, adaptive and interactive (burger
+              menu, endless carousel slider, pagination, popups for cards).</p>
+            <a href="https://github.com/Sattturday/shelter" class="projects__link">Shelter</a>
+          </li>
+          <li class="projects__item">
+            <h3 class="projects__title">Mesto</h3>
+            <p class="projects__description">It's a Mesto service: an interactive page where you can add photos, delete
+              them, and like them, with authorization and registration.</p>
+            <a href="https://github.com/Sattturday/react-mesto-auth" class="projects__link">Mesto</a>
+          </li>
+          <li class="projects__item">
+            <h3 class="projects__title">Russian travel</h3>
+            <p class="projects__description">This is a typical one-page responsive website.</p>
+            <a href="https://github.com/Sattturday/russian-travel" class="projects__link">Russian travel</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <div class="wrapper">
+        <h2 class="section-title">Education</h2>
+        <p class="section-subtitle">How can I be useful?</p>
+        <p class="paragraph">Now I am taking the Yandex Practicum Web Developer course and the RS School
+          JavaScript/Front-end course now.</p>
+      </div>
+    </section>
+
+    <section class="languages" id="languages">
+      <div class="wrapper">
+        <h2 class="section-title">Languages</h2>
+        <p class="section-subtitle">My level of English now</p>
+        <p class="paragraph">**A2 ELEMENTARY**, according to the guidelines set by the Common European Grading Framework
+          (CEFR).</p>
+      </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+      <div class="wrapper">
+        <h2 class="section-title">Сontacts</h2>
+        <p class="section-subtitle">Contact me</p>
+        <ul class="contacts__list">
+          <li class="contacts__item"><a href="mailto:babara@flylady.su" class="contacts__link">Email</a></li>
+          <li class="contacts__item"><a href="https://github.com/Sattturday/" class="contacts__link">GitHub</a></li>
+          <li class="contacts__item"><a href="https://t.me/Sattturday/" class="contacts__link">Telegram</a></li>
+          <li class="contacts__item"><a href="tel:+79196612276" class="contacts__link">+7 (919) 661-22-76</a></li>
+        </ul>
+      </div>
+    </section>
   </main>
 
-  <footer class="footer"></footer>
+  <footer class="footer">
+    <div class="wrapper">
+      <p class="footer__copyright">&copy; 2023
+        <a class="footer__link" href="https://github.com/Sattturday">Alla Magina</a>
+      </p>
+      <a href="https://rs.school/js-stage0/" class="footer__logo-link">
+        <img class="footer__logo" src="https://rs.school/images/rs_school_js.svg" alt="course logo">
+      </a>
+    </div>
+  </footer>
 </body>
 
 </html>
