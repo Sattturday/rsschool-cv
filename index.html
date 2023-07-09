@@ -30,57 +30,94 @@
   <main class="main">
     <section class="profile">
       <div class="wrapper">
-        <h1 class="profile__title">Hello, my name is Alla Magina and</h1>
-        <p class="profile__description">I am a web developer</p>
-        <a href="#projects" class="profile__link">Portfolio</a>
-        <a href="#about" class="profile__link">About me</a>
+        <div class="profile__container">
+          <h1 class="section-title">Hello, my name is <span>Alla Magina</span> and</h1>
+          <p class="profile__description">I'm a <span>web</span> developer</p>
+          <div class="profile__links">
+            <a href="#projects" class="profile__link profile__link_btn">Portfolio</a>
+            <a href="#about" class="profile__link">About me</a>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="about" id="about">
       <div class="wrapper">
-        <img class="about__image" src="" alt="">
-        <h2 class="section-title">About me</h2>
-        <p class="section-subtitle">My name is Alla</p>
-        <p class="paragraph">For the last couple of years, I have been into interior design and 3D visualization, but it
-          seemed to me that I was not fully realizing my potential and I wanted something more. After some thought, I
-          decided that front-end development perfectly matches my interests and skills. I love creating beautiful and
-          functional web pages, as well as solving complex problems related to code. I like that this process is
-          constantly changing and developing, and there is always an opportunity to learn new things.</p>
-        <p class="paragraph">I read a lot of books, blogs, and also take courses on online platforms such as
-          Yandex.Practice, RS School and Hekslet. I also try to attend relevant events in order to communicate with
-          colleagues and find new ideas.</p>
-        <p class="paragraph">My favorite hobby is cycling. I love spending time in nature, riding my bike through
-          picturesque places. I am also into photography. I love to capture moments of life and save them in beautiful
-          and
-          original frames.</p>
+        <img class="about__image" src="./images/about.jpg" alt="">
+        <div class="about__container">
+          <h2 class="section-title">About me</h2>
+          <p class="section-subtitle">My name is Alla</p>
+          <div class="about__text">
+            <p class="paragraph">For the last couple of years, I have been into interior design and 3D visualization,
+              but it seemed to me that I was not fully realizing my potential and I wanted something more. After some
+              thought, I decided that front-end development perfectly matches my interests and skills. I love creating
+              beautiful and functional web pages, as well as solving complex problems related to code. I like that this
+              process is constantly changing and developing, and there is always an opportunity to learn new things.</p>
+            <p class="paragraph">I read a lot of books, blogs, and also take courses on online platforms such as
+              Yandex.Practice, RS School and Hekslet. I also try to attend relevant events in order to communicate with
+              colleagues and find new ideas.</p>
+            <p class="paragraph">My favorite hobby is cycling. I love spending time in nature, riding my bike through
+              picturesque places. I am also into photography. I love to capture moments of life and save them in
+              beautiful and original frames.</p>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="skills" id="skills">
       <div class="wrapper">
-        <h2 class="section-title">Skills</h2>
-        <p class="section-subtitle">What do I use at work?</p>
+        <h2 class="section-title section__title_center">Skills</h2>
+        <p class="section-subtitle section__subtitle_center">What do I use at work?</p>
         <ul class="skills__list">
-          <li class="skills__item">HTML5</li>
-          <li class="skills__item">CSS3</li>
-          <li class="skills__item">SASS</li>
-          <li class="skills__item">JavaScript</li>
-          <li class="skills__item">methodology BEM</li>
-          <li class="skills__item">REST API</li>
-          <li class="skills__item">React</li>
-          <li class="skills__item">Node.js</li>
-          <li class="skills__item">Express</li>
-          <li class="skills__item">MongoDB</li>
+          <li class="skills__item">
+            <img class="skills__item-icon" src="./images/skills/html5.svg" alt="technology icon">
+            <h3 class="skills__item-title">HTML5</h3>
+          </li>
+          <li class="skills__item">
+            <img class="skills__item-icon" src="./images/skills/css3.svg" alt="technology icon">
+            <h3 class="skills__item-title">CSS3</h3>
+          </li>
+          <li class="skills__item">
+            <img class="skills__item-icon" src="./images/skills/SASS.svg" alt="technology icon">
+            <h3 class="skills__item-title">SASS</h3>
+          </li>
+          <li class="skills__item">
+            <img class="skills__item-icon" src="./images/skills/JS.svg" alt="technology icon">
+            <h3 class="skills__item-title">JavaScript</h3>
+          </li>
+          <li class="skills__item">
+            <img class="skills__item-icon" src="./images/skills/bem.png" alt="technology icon">
+            <h3 class="skills__item-title">methodology BEM</h3>
+          </li>
+          <li class="skills__item">
+            <img class="skills__item-icon" src="./images/skills/API.png" alt="technology icon">
+            <h3 class="skills__item-title">REST API</h3>
+          </li>
+          <li class="skills__item">
+            <img class="skills__item-icon" src="./images/skills/React.svg" alt="technology icon">
+            <h3 class="skills__item-title">React</h3>
+          </li>
+          <li class="skills__item">
+            <img class="skills__item-icon" src="./images/skills/Node.svg" alt="technology icon">
+            <h3 class="skills__item-title">Node.js</h3>
+          </li>
+          <li class="skills__item">
+            <img class="skills__item-icon" src="./images/skills/express-js.svg" alt="technology icon">
+            <h3 class="skills__item-title">Express</h3>
+          </li>
+          <li class="skills__item">
+            <img class="skills__item-icon" src="./images/skills/Mongo.svg" alt="technology icon">
+            <h3 class="skills__item-title">MongoDB</h3>
+          </li>
         </ul>
       </div>
     </section>
 
     <section class="code" id="code">
       <div class="wrapper">
-        <h2 class="section-title">My code</h2>
-        <p class="section-subtitle">Сode example</p>
-        <pre class="paragraph">
+        <h2 class="section-title section__title_center">My code</h2>
+        <p class="section-subtitle section__subtitle_center">Сode example</p>
+        <pre class="code__example">
           function spinWords(string) {
             return string
               .split(" ")
@@ -95,25 +132,52 @@
 
     <section class="projects" id="projects">
       <div class="wrapper">
-        <h2 class="section-title">Portfolio</h2>
-        <p class="section-subtitle">My projects</p>
+        <h2 class="section-title section__title_center">Portfolio</h2>
+        <p class="section-subtitle section__subtitle_center">My projects</p>
         <ul class="projects__list">
           <li class="projects__item">
+            <img class="projects__image" src="./images/shelter.png" alt="sheler">
             <h3 class="projects__title">Shelter</h3>
-            <p class="projects__description">This is a site consisting of two pages, adaptive and interactive (burger
+            <p class="paragraph">This is a site consisting of two pages, adaptive and interactive (burger
               menu, endless carousel slider, pagination, popups for cards).</p>
-            <a href="https://github.com/Sattturday/shelter" class="projects__link">Shelter</a>
+            <ul class="projects__technologies">
+              <li class="projects__technologies-item">advanced semantics of the HTML5</li>
+              <li class="projects__technologies-item">SCSS</li>
+              <li class="projects__technologies-item">flexbox</li>
+              <li class="projects__technologies-item">grid layout</li>
+              <li class="projects__technologies-item">methodology BEM</li>
+              <li class="projects__technologies-item">JavaScript</li>
+            </ul>
+            <a class="projects__link" href="https://github.com/Sattturday/shelter">Open in browser Shelter</a>
           </li>
           <li class="projects__item">
+            <img class="projects__image" src="./images/mesto.png" alt="mesto">
             <h3 class="projects__title">Mesto</h3>
-            <p class="projects__description">It's a Mesto service: an interactive page where you can add photos, delete
+            <p class="paragraph">It's a Mesto service: an interactive page where you can add photos, delete
               them, and like them, with authorization and registration.</p>
-            <a href="https://github.com/Sattturday/react-mesto-auth" class="projects__link">Mesto</a>
+            <ul class="projects__technologies">
+              <li class="projects__technologies-item">advanced semantics of the HTML5</li>
+              <li class="projects__technologies-item">flexbox, grid layout</li>
+              <li class="projects__technologies-item">React</li>
+              <li class="projects__technologies-item">React Router</li>
+              <li class="projects__technologies-item">protected routes</li>
+              <li class="projects__technologies-item">authorization via JWT</li>
+              <li class="projects__technologies-item">working with LocalStorage</li>
+            </ul>
+            <a class="projects__link href=" https://github.com/Sattturday/react-mesto-auth"">Open in browser Mesto</a>
           </li>
           <li class="projects__item">
+            <img class="projects__image" src="./images/travel.png" alt="Russian travel">
             <h3 class="projects__title">Russian travel</h3>
-            <p class="projects__description">This is a typical one-page responsive website.</p>
-            <a href="https://github.com/Sattturday/russian-travel" class="projects__link">Russian travel</a>
+            <p class="paragraph">This is a typical one-page responsive website.</p>
+            <ul class="projects__technologies">
+              <li class="projects__technologies-item">advanced semantics of the HTML5</li>
+              <li class="projects__technologies-item">flexbox</li>
+              <li class="projects__technologies-item">grid layout</li>
+              <li class="projects__technologies-item">methodology BEM</li>
+            </ul>
+            <a class="projects__link href=" https://github.com/Sattturday/russian-travel"">Open in browser Russian
+              travel</a>
           </li>
         </ul>
       </div>
@@ -121,31 +185,54 @@
 
     <section class="education" id="education">
       <div class="wrapper">
-        <h2 class="section-title">Education</h2>
-        <p class="section-subtitle">How can I be useful?</p>
-        <p class="paragraph">Now I am taking the Yandex Practicum Web Developer course and the RS School
-          JavaScript/Front-end course now.</p>
+        <h2 class="section-title section__title_center">Education</h2>
+        <p class="section-subtitle section__subtitle_center">How can I be useful?</p>
+        <div class="education__items">
+          <ul class="education__list">
+            <li class="education__item">Yandex Practicum - Web Developer</li>
+            <li class="education__item">RS School - JavaScript/Front-end</li>
+            <li class="education__item">Hexlet - JavaScript for beginner</li>
+          </ul>
+          <p class="projects__technologies-item">Sholokhov Moscow State University for Humanities</p>
+        </div>
       </div>
     </section>
 
     <section class="languages" id="languages">
       <div class="wrapper">
-        <h2 class="section-title">Languages</h2>
-        <p class="section-subtitle">My level of English now</p>
-        <p class="paragraph">**A2 ELEMENTARY**, according to the guidelines set by the Common European Grading Framework
-          (CEFR).</p>
+        <h2 class="section-title section__title_center">Languages</h2>
+        <p class="section-subtitle section__subtitle_center">My level of English now</p>
+        <p class="languages__level">**A2 ELEMENTARY**</p>
+        <p class="languages__description">according to the guidelines set by the Common European Grading Framework
+          (CEFR)</p>
       </div>
     </section>
 
     <section class="contacts" id="contacts">
       <div class="wrapper">
-        <h2 class="section-title">Сontacts</h2>
-        <p class="section-subtitle">Contact me</p>
+        <h2 class="section-title section__title_center">Сontacts</h2>
+        <p class="section-subtitle section__subtitle_center">Contact me</p>
         <ul class="contacts__list">
-          <li class="contacts__item"><a href="mailto:babara@flylady.su" class="contacts__link">Email</a></li>
-          <li class="contacts__item"><a href="https://github.com/Sattturday/" class="contacts__link">GitHub</a></li>
-          <li class="contacts__item"><a href="https://t.me/Sattturday/" class="contacts__link">Telegram</a></li>
-          <li class="contacts__item"><a href="tel:+79196612276" class="contacts__link">+7 (919) 661-22-76</a></li>
+          <li class="contacts__item">
+            <a href="mailto:babara@flylady.su" class="contacts__link">
+              <img class="contacts__icon" src="./images/contacts/E-mail.png" alt="email icon">
+              Email</a>
+          </li>
+          <li class="contacts__item">
+            <a href="https://github.com/Sattturday/" class="contacts__link">
+              <img class="contacts__icon" src="./images/contacts/Github.svg" alt="GitHub icon">
+              GitHub</a>
+          </li>
+          <li class="contacts__item">
+            <a href="https://t.me/Sattturday/" class="contacts__link">
+              <img class="contacts__icon" src="./images/contacts/Telegram.svg" alt="Telegram icon">
+              Telegram</a>
+          </li>
+          <li class="contacts__item">
+            <a href="tel:+79196612276" class="contacts__link">
+              <img class="contacts__icon" src="./images/contacts/Tel.png" alt="Mobile icon">
+              +7 (919) 661-22-76</a>
+          </li>
         </ul>
       </div>
     </section>
