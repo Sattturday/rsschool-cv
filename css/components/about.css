@@ -1,0 +1,12 @@
+.about {
+  padding: 50px 0 75px;
+}
+
+.about__image {
+  width: 50%;
+  aspect-ratio: auto;
+}
+
+.about__text {
+  padding-top: 60px;
+}

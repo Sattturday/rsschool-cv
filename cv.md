@@ -17,6 +17,7 @@ Although I am new to web development, I have already gained a solid foundation i
 
     - HTML5
     - CSS3
+    - SASS
     - JavaScript
     - methodology BEM
     - REST API
@@ -43,6 +44,7 @@ return string
 ## 👩🏼‍💻 My projects:
 
 - [Shelter](https://github.com/Sattturday/shelter) This is a site consisting of two pages, adaptive and interactive (burger menu, endless carousel slider, pagination, popups for cards).
+
   - advanced semantics of the HTML5
   - SCSS
   - flexbox
@@ -50,7 +52,8 @@ return string
   - methodology BEM
   - JavaScript
 
-- [Mesto](https://github.com/Sattturday/react-mesto-auth) It's a Mesto service: an interactive page where you can add photos, delete them, and like them, with authorization and registration
+- [Mesto](https://github.com/Sattturday/react-mesto-auth) It's a Mesto service: an interactive page where you can add photos, delete them, and like them, with authorization and registration.
+
   - advanced semantics of the HTML5
   - flexbox
   - grid layout
@@ -67,6 +70,7 @@ return string
   - grid layout
   - methodology BEM
     <br>
+
 ## 👩🏼‍🎓 Education
 
 Now I am taking the Yandex Practicum Web Developer course and the RS School JavaScript/Front-end course now.

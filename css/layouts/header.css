@@ -1,11 +1,14 @@
-.nav {
-  padding-right: 50px;
+.header {
+  background-color: #bee7fb;
+  padding-right: 80px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .nav__list {
+  margin: 0;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
   list-style: none;
 }
 
@@ -20,6 +23,7 @@
 
 .nav__item {
   background-image: none;
+  background-size: 36px;
   background-repeat: no-repeat;
   background-position: left center;
   transition: all 0.3s ease;
