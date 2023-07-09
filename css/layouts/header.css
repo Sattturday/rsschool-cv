@@ -1,5 +1,8 @@
 .header {
   background-color: #bee7fb;
+  padding-right: 80px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .nav__list {
